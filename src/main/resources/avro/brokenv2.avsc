@@ -1,0 +1,24 @@
+{
+  "name": "BrokenV2",
+  "type": "record",
+  "namespace": "org.cementownia.playground.avro",
+  "fields": [
+    {
+      "name": "status",
+      "type": {
+        "type": "enum",
+        "name": "BrokenTestStatusV2",
+        "symbols": [
+          "OK",
+          "FAIL",
+          "NEW"
+        ],
+        "default": "FAIL"
+      }
+    },
+    {
+      "name": "id",
+      "type": "string"
+    }
+  ]
+}
