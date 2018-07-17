@@ -1,5 +1,5 @@
 {
-  "name": "Correct",
+  "name": "CorrectV2",
   "type": "record",
   "namespace": "org.cementownia.playground.avro",
   "fields": [
@@ -7,10 +7,11 @@
       "name": "status",
       "type": {
         "type": "enum",
-        "name": "CorrectTestStatus",
+        "name": "CorrectTestStatusV2",
         "symbols": [
           "OK",
-          "FAIL"
+          "FAIL",
+          "NEW"
         ]
       },
       "default": "OK"
